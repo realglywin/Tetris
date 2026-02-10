@@ -12,6 +12,8 @@ public class Main {
         window.add(gamePanel);
         window.pack();
 
+        gamePanel.startGame();
+
         window.setLocationRelativeTo(null);
         window.setVisible(true);
     }
